@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={beau.className}>
         <Header />
-        <main className='min-h-[75vh]'>
+        <main className='min-h-[75vh] relative top-[100px]'>
 
           {children}
         </main>

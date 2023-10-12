@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Header() {
   return (
-    <nav>
+    <nav className='fixed left-0 right-0 z-10'>
         <ul className='flex justify-between px-4 items-center h-[100px] bg-blue-700 text-white'>
             <Link href='/'>
             <li>Home</li>
